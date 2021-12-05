@@ -1,0 +1,93 @@
+.f1container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    align-self: center;
+    width: 450px;
+    height: 120px;
+}
+ 
+.f2container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.trophy{
+    width: 60%;
+    height: 100%;
+    margin-left: 10%;
+    flex-shrink: 1;
+}
+
+.cfitem{
+    margin-right: 10%;
+}
+.congo{
+    width: 100%;
+    flex-shrink: 1;
+}
+
+.f3container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.heading{
+    align-self: center;
+    font-size: 15px;
+}
+
+.pro{
+    width: 70%;
+    height: 70%;
+    align-self: center;
+    flex-shrink: 1;
+}
+.para{
+    align-self: center;
+}
+
+.line{
+    height: 2px;
+    background-color: #ec3237;
+}
+
+.f4container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerheading{
+    align-self: center;
+}
+
+.footerpara{
+    font-size: 15px;
+    align-self: center;
+    font-weight: bold;
+}
+
+.footercontainer{
+    display: flex;
+    background-color: #ec3237;
+    height: 90px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footeritem{
+    margin-top: 20px;
+    color: white;
+}
+.social{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
